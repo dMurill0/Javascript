@@ -6,24 +6,24 @@ let result = 0
 let resultEl = document.getElementById("sum-el")
 function add() {
     result = num1 + num2
-    resultEl.textContent = " " + result
-    result = 0
+    resultEl.textContent = "Sum: " + result
+
 }
 
 function subtract() {
     result = num1 - num2
-    resultEl.textContent = " " + result
-    result = 0
+    resultEl.textContent = "Sub: " + result
+
 }
 
 function divide() {
     result = num1 / num2
-    resultEl.textContent = " " + result
-    result = 0
+    resultEl.textContent = "Div: " + result
+
 }
 
 function multiply() {
     result = num1 * num2
-    resultEl.textContent = " " + result
-    result = 0
+    resultEl.textContent = "Mul: " + result
+
 }
