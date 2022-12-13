@@ -11,6 +11,8 @@ body {
   height: 385px;
   font-size: 2rem;
   margin-left: 25%;
+  margin-top: 5%;
+  box-shadow: 2px 2px 2px 2px black;
 }
 .container h3 {
   text-transform: uppercase;
